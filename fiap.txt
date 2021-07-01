@@ -6,13 +6,10 @@ https://github.com/victorlincoln
 
 Comando para subir o arquivo para github :
 1 - Criar repositório no Github
-2 - Com git aberto, execute estes comandos:
-       . git init
-       . git add
-       . git commit -m "Texto" 
-       . git branch -m main
-      . git remote add origin https://github.com/victorlincoln/Projeto-git---Fiap.git
-      . git push -u origin main
+2 - colar  ( git remote add origin https://github.com/victorlincoln/Projeto-git---Fiap.git) no terminal
+3 - colar git push -u origin main 
+4 - Credenciais para entrar no git
+
 
 Toda alteração que realizar no projeto na sua máquina e quiser subir para github basta executar estes comandos:
 . git add
@@ -43,3 +40,4 @@ git diff – vai mostrar a alteração
 git log – histórico de quem ta navegando
 git clean -f – apagar, desistir de um arquivo
 git checkout – comando que vai conseguir navegar, alterações, arquivos
+git reset - Desfazer da alteração
