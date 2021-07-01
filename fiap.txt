@@ -3,4 +3,43 @@
 Link do Github:
 https://github.com/victorlincoln
 
-Comandos:
+
+Comando para subir o arquivo para github :
+1 - Criar repositório no Github
+2 - Com git aberto, execute estes comandos:
+       . git init
+       . git add
+       . git commit -m "Texto" 
+       . git branch -m main
+      . git remote add origin https://github.com/victorlincoln/Projeto-git---Fiap.git
+      . git push -u origin main
+
+Toda alteração que realizar no projeto na sua máquina e quiser subir para github basta executar estes comandos:
+. git add
+. git commit -m"texto"
+.git push
+
+
+
+Git - Comandos:
+
+git init – Informar pro git que está pasta é um repositório
+Precisa versionar
+Git config –-global user.name “” – configurar nome e o email do programador que esta ali
+
+Para confirmar – git config user.name
+Git status – status do arquivo dentro da página
+
+Ai se cria um novo arquivo na pasta
+
+Git add - nome do arquivo, para adicionar
+Ou 
+git add .
+git add * – adicionar os arquivos que quer versionar
+
+git status 
+ git commit -m “uhuhu” – confirmando as versões
+git diff – vai mostrar a alteração
+git log – histórico de quem ta navegando
+git clean -f – apagar, desistir de um arquivo
+git checkout – comando que vai conseguir navegar, alterações, arquivos
